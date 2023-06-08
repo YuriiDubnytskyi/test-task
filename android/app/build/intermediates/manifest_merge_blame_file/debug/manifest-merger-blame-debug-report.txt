@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mediaapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/ydubn/Documents/test/test-task/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/ydubn/Documents/test/test-task/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/ydubn/.gradle/caches/transforms-3/ec3d59c9c826ff8a84652b9ebb1656c5/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/ydubn/.gradle/caches/transforms-3/ec3d59c9c826ff8a84652b9ebb1656c5/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+14-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-80
+15-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-77
+16
+17    <queries>
+17-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-18:15
+18
+19        <!-- Query open documents -->
+20        <intent>
+20-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:18
+21            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+21-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-79
+21-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-76
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.android.installreferrer:installreferrer:1.0] /Users/ydubn/.gradle/caches/transforms-3/7c8fe06ed3eadf685a38d38402cfb7cd/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+25-->[com.android.installreferrer:installreferrer:1.0] /Users/ydubn/.gradle/caches/transforms-3/7c8fe06ed3eadf685a38d38402cfb7cd/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+26
+27    <application
+27-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:5:5-24:19
+28        android:name="com.mediaapp.MainApplication"
+28-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:6:7-38
+29        android:allowBackup="false"
+29-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:10:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] /Users/ydubn/.gradle/caches/transforms-3/742695b6ea79f7ca011b128faf587d4b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:8:7-41
+33        android:label="@string/app_name"
+33-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:7:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:9:7-52
+35        android:theme="@style/AppTheme"
+35-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:11:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/Users/ydubn/Documents/test/test-task/android/app/src/debug/AndroidManifest.xml:8:9-44
+37        <activity
+37-->/Users/ydubn/Documents/test/test-task/android/app/src/debug/AndroidManifest.xml:11:9-111
+38            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+38-->/Users/ydubn/Documents/test/test-task/android/app/src/debug/AndroidManifest.xml:11:19-83
+39            android:exported="false" />
+39-->/Users/ydubn/Documents/test/test-task/android/app/src/debug/AndroidManifest.xml:11:84-108
+40        <activity
+40-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:12:7-23:18
+41            android:name="com.mediaapp.MainActivity"
+41-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:13:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+42-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:15:9-118
+43            android:exported="true"
+43-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:18:9-32
+44            android:label="@string/app_name"
+44-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:14:9-41
+45            android:launchMode="singleTask"
+45-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:16:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:17:9-51
+47            <intent-filter>
+47-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:19:9-22:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:20:13-65
+48-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:20:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:21:13-73
+50-->/Users/ydubn/Documents/test/test-task/android/app/src/main/AndroidManifest.xml:21:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-30:20
+55            android:name="expo.modules.filesystem.FileSystemFileProvider"
+55-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-74
+56            android:authorities="com.mediaapp.FileSystemFileProvider"
+56-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-74
+57            android:exported="false"
+57-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+58            android:grantUriPermissions="true" >
+58-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-47
+59            <meta-data
+59-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:70
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-67
+61                android:resource="@xml/file_system_provider_paths" />
+61-->[:expo-file-system] /Users/ydubn/Documents/test/test-task/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-67
+62        </provider>
+63
+64        <meta-data
+64-->[:expo-modules-core] /Users/ydubn/Documents/test/test-task/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:89
+65            android:name="org.unimodules.core.AppLoader#react-native-headless"
+65-->[:expo-modules-core] /Users/ydubn/Documents/test/test-task/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-79
+66            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+66-->[:expo-modules-core] /Users/ydubn/Documents/test/test-task/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-86
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/ydubn/.gradle/caches/transforms-3/468c7525363f9f3044a9229656b613cb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/ydubn/.gradle/caches/transforms-3/468c7525363f9f3044a9229656b613cb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+70            android:authorities="com.mediaapp.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.0.0] /Users/ydubn/.gradle/caches/transforms-3/468c7525363f9f3044a9229656b613cb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.0.0] /Users/ydubn/.gradle/caches/transforms-3/468c7525363f9f3044a9229656b613cb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.0.0] /Users/ydubn/.gradle/caches/transforms-3/468c7525363f9f3044a9229656b613cb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.0.0] /Users/ydubn/.gradle/caches/transforms-3/468c7525363f9f3044a9229656b613cb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.0.0] /Users/ydubn/.gradle/caches/transforms-3/468c7525363f9f3044a9229656b613cb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ydubn/.gradle/caches/transforms-3/194c08221c9858599639426c07a0dab8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ydubn/.gradle/caches/transforms-3/194c08221c9858599639426c07a0dab8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ydubn/.gradle/caches/transforms-3/194c08221c9858599639426c07a0dab8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>
